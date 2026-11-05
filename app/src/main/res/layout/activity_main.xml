@@ -47,7 +47,7 @@
             android:id="@+id/imgmovimiento"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="30dp"/>
            <!-- android:src="@drawable/sinmovimiento"
             android:contentDescription="Imagen del movimiento"/>  -->
 
