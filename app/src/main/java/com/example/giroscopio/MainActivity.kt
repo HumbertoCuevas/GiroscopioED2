@@ -118,6 +118,11 @@ class MainActivity : AppCompatActivity() , SensorEventListener {
     }
 
 
+    override fun onPause() {
+        sensorManager.unregisterListener(this)
+        super.onPause()
+    }
+
     override fun onResume() {
         super.onResume()
         giroscopio?.let{

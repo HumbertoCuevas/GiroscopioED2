@@ -13,16 +13,15 @@ class Menu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_menu)
-        findViewById<Button>(R.id.btmcalculadora).setOnClickListener {
-            val intent = Intent(this, MainCalculadora::class.java)
+        findViewById<Button>(R.id.btnlogin).setOnClickListener {
+            val intent = Intent(this, PresionActivity::class.java)
             startActivity(intent)
         }
 
 
         findViewById<Button>(R.id.btmcontador).setOnClickListener {
-            val intent = Intent(this, MainContador::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-        }
         }
     }
 }
