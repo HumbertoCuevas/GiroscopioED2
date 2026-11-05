@@ -81,8 +81,8 @@ class MainActivity : AppCompatActivity() , SensorEventListener {
                 imagen.setImageResource(R.drawable.fondo1)
                 findViewById<View>(R.id.main).setBackgroundColor(Color.YELLOW)
                 findViewById<TextView>(R.id.tvtitulo).setTextColor(Color.YELLOW)
-                tvvalores.setTextColor(Color.YELLOW)
-                tvestado.setTextColor(Color.YELLOW)
+                tvvalores.setTextColor(Color.BLACK)
+                tvestado.setTextColor(Color.BLACK)
 
 
 
@@ -91,8 +91,8 @@ class MainActivity : AppCompatActivity() , SensorEventListener {
                 imagen.setImageResource(R.drawable.fondo2)
                 findViewById<View>(R.id.main).setBackgroundColor(Color.BLUE)
                 findViewById<TextView>(R.id.tvtitulo).setTextColor(Color.BLUE)
-                tvvalores.setTextColor(Color.BLUE)
-                tvestado.setTextColor(Color.BLUE)
+                tvvalores.setTextColor(Color.BLACK)
+                tvestado.setTextColor(Color.BLACK)
 
 
             } else {
